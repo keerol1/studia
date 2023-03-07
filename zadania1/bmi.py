@@ -18,5 +18,3 @@ if __name__ == '__main__':
     wzrost = input("Napisz swój wzrost (w m): ")
     waga = input("Napisz swoją wagę (w kg): ")
     print(f"Twoje bmi to {bmi(waga, wzrost)} - {status(bmi)}")
-    
-    
